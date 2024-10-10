@@ -1,36 +1,28 @@
-#The basic structure is of a class inside which we have a dictionary containing all the information of the user, with email as key and a dictionary as value.
+'''
+This program uses a functional approach to apply a user data management system
+A dictionary is used to store all user's data
+'''
 
-
-class User():
-    def __init__(self, emailid, password, first_name, last_name, age): #Created a dictionary of various info and giving it as a value to dictionary id whose key will be the emailid
-        info = {}
-        info["password"]= password
-        info["first_name"] = first_name
-        info["last_name"]  = last_name
-        info["age"] = age
-        self.user_data = info
-    
-    def verify_credentials(self, email, password, first_name, last_name, age):
-        if email not in self.keys():
-            print("email ID not found! Please try again.")
-        if self.user_data[email]["password"] != password :
-            print("Incorrect password. Please try again.")
-        
-        print("Logged in successfully")
 '''Defining all the required functions to support the program'''
+
 def input_choice():
     '''
     Documentation for the input_choice()
     Takes an input and makes sure exceptions are handled
     '''
-    while(1):
+    count =0
+    while(count<5): #Will tolerate maximum of 5 incorrect entries
         try:
             choice = int(input("Choose an option (1,2 or 3): "))
         except:
             print("Invalid input!")
         else:
             return choice
-            
+        finally:
+            count += 1
+    if count>=5 :
+        print("Too many incorrect inputs, please try after sometime.")
+        exit()
 def input_email():
     '''
     Documentation for input_email()
@@ -66,23 +58,32 @@ def input_age():
             print("Age should be an integer. Please try again.")
         else:
             return age
-
-
+def verify_credentials(users, email, password, first_name, last_name, age):
+    if email not in self.keys():
+        print("email ID not found! Please try again.")
+    if self.user_data[email]["password"] != password :
+        print("Incorrect password. Please try again.")
+        
+    print("Logged in successfully")
 '''All required functions defined'''
 choice = 0
-user = User("unknown@sample.com","123@13","Melon","Jay", 20)
-while(choice != 3 and choice != 1):#Will exit when user enters choice as 3
+users = {
+    "abc@example.com":{"password":"abcd123","first_name":"Doug","last_name":"Moncanda","age":34},
+    "xyz@domain.in":{"password":"marian789","first_name":"Mary","last_name":"Joes","age":28}
+    
+}
+while(1):#Will exit when user enters choice as 3 or if user signed in
     print("Menu :")
     print("1. Signup")
     print("2. Sign-in")
     print("3. Exit")
     
-    choice = int(input("Choose an option (1,2 or 3): "))
+    choice = input_choice()
     
     if choice == 1:
         emailid = input_email()
         #If email already exists, we need to raise an error
-        if  emailid in user.user_data.keys():
+        if  emailid in users.keys():
             print("Email ID already exists. Please try again.")
             continue
             
@@ -93,10 +94,32 @@ while(choice != 3 and choice != 1):#Will exit when user enters choice as 3
         
         age = input_age()
         
-        user.user_data[emailid] = {emailid,password,first_name,last_name,age}
+        info = {"password":password,"first_name":first_name,"last_name":last_name,"age":age}
+        
+        users[emailid] = info
     
-print(user.user_data)
+    
+    elif choice == 2:
+        emailid  =  input_email()
         
+        while(1):
+            password = input("Enter your password: ")
+            if emailid not in users.keys():#If emailid not found in our data, we ask user to choose to sign-up or sign-in again.
+                print("No data of this Email ID found. Kindly sign-up or sign in again using a different email.")
+                break
+            elif users[emailid]["password"] == password : #If the password in our system and input password matches, user is signed in
+                print("Signed In Successfully. ")
+                exit()
+            else :
+                print("Invalid password. Please try again")
+                
+    
+    elif choice == 3 :
+        print("Exiting the application. Goodbye!")
+        break
         
+    else :
+        print("The choice must be in between 1-3. Please try again")
+
         
         
