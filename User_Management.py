@@ -58,12 +58,7 @@ def input_age():
             print("Age should be an integer. Please try again.")
         else:
             return age
-def verify_credentials(users, email, password, first_name, last_name, age):
-    if email not in self.keys():
-        print("email ID not found! Please try again.")
-    if self.user_data[email]["password"] != password :
-        print("Incorrect password. Please try again.")
-        
+
     print("Logged in successfully")
 '''All required functions defined'''
 choice = 0
