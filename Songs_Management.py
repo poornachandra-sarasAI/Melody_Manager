@@ -4,6 +4,12 @@
 class Song:
     # Constructor to define song data
     def __init__(self,title,artist,album,genre,duration):
+        title= formatName(title)
+        artist = formatName(artist)
+        album = formatName(album)
+        genre = formatName(genre)
+        duration = formatName(duration)
+
         self.title = title
         self.artist = artist
         self.album = album
@@ -29,7 +35,6 @@ class database:
 
     # Load songs from a specified file to the playlist
     def Load_File(self,file_name):
-        print(file_name)
         try:
             with open(file_name,"r") as file:
                 for line in file:
@@ -42,9 +47,9 @@ class database:
                             self.playlist[song.artist] = []
                         self.playlist[song.artist].append(song)
             print(f"Songs loaded from {file_name}.\n")
-        except FileNotFoundError:
+        except :
             print("File not found!\nTaking back to main menu...\n")
-        return
+        
 
     # Display the database in the formatted form
     def display(self):
@@ -95,6 +100,38 @@ class database:
         return False
 
 
+def input_choice():
+    '''
+    Documentation for the input_choice()
+    Takes an input and makes sure exceptions are handled
+    '''
+    count =0
+    while(count<5): #Will tolerate maximum of 5 incorrect entries
+        try:
+            choice = int(input("\nChoose an option (1,2,3,4 or 5): "))
+        except:
+            print("Invalid input!")
+        else:
+            return choice
+        finally:
+            count += 1
+    if count>=5 :
+        print("Too many incorrect inputs, please try after sometime.")
+        exit()
+
+
+def formatName(name):
+    '''
+    Documentation for formatName()
+    This function will remove any leading or trailing whitespaces.
+    It also converts the name to tite case.
+    '''
+    #Removing any single or double quotes
+    name = name.strip()
+    name = name.strip("'")
+    name = name.strip('"')
+    name = name.strip()
+    return name.title()
 
 
 # Function to display Developer's menu->
@@ -110,32 +147,36 @@ def menu():
 db = database()
 while True:
     menu() #displaying the menu
-    choice = int(input("Select an option: ")) # choosing an option
+    choice = input_choice() # choosing an option
     #match case for choice selection
-    match choice:
-        case 1: # Load song data
-            file_name = input("Enter the file name to load songs: ")
-            db.Load_File(file_name)
+    
+    if choice == 1: # Load song data
+        file_name = input("Enter the file name to load songs: ")
+        db.Load_File(file_name)
 
-        case 2: # View song database
-            db.display()
+    if choice == 2: # View song database
+        db.display()
         
-        case 3: # Delete a song
-            artist = input("Enter the artist's name of the song to delete: ")
-            name = input("Enter the title of the song to delete: ")
-            if db.delete(artist,name):
-                print(f"Deleted {name} by {artist} from the database.")
+    elif choice == 3: # Delete a song
+        artist = input("Enter the artist's name of the song to delete: ")
+        name = input("Enter the title of the song to delete: ")
+        artist = formatName(artist)
+        name = formatName(name)
+        if db.delete(artist,name):
+            print(f"Deleted {name} by {artist} from the database.")
         
-        case 4: # Modify a song
-            artist = input("Enter the artist's name of the song to modify: ")
-            title = input("Enter the title of the song to modify: ")
-            if db.modify(artist,title):
-                print(f"Modified {title} by {artist}.")
+    elif choice == 4: # Modify a song
+        artist = input("Enter the artist's name of the song to modify: ")
+        title = input("Enter the title of the song to modify: ")
+        artist = formatName(artist)
+        title = formatName(title)
+        if db.modify(artist,title):
+            print(f"Modified {title} by {artist}.")
         
-        case 5: # Exiting the programm
-            print("Exiting the application. Goodbye!\n")
-            break
+    elif choice == 5: # Exiting the programm
+        print("Exiting the application. Goodbye!\n")
+        break
         
-        case _: # Handle invalid options
-            print("Please choose option from the menu!")
+    else : # Handle invalid options
+        print("Please choose option from the menu!")
     print()
