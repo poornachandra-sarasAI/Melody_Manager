@@ -37,6 +37,7 @@ class database:
     def Load_File(self,file_name):
         try:
             with open(file_name,"r") as file:
+                file.readline()
                 for line in file:
                     song_attributes = line.strip().split(',')
                     if len(song_attributes) == 5:
