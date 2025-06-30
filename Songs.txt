@@ -1,16 +1,100 @@
 Title, Artist, Album, Genre, Duration
-"Fireflies", Owl City, Ocean Eyes, Electronic, 3:48
-Heat Waves, Glass Animals, Dreamland, Alternative, 3:59
-How Do You Sleep, Sam Smith, How Do You Sleep?, Pop, 3:22
-Latch, Disclosure, Settle, Electronic, 4:17
-Love Yourself, Justin Bieber, Purpose(Deluxe), Pop, 3:54
-Peaches (ft. Daniel Caesar), Justin Bieber, Justice, Pop, 3:18
- "Sparkle", Radwimps, Your Name, Rock, 8:58
-Unholy, Sam Smith, Unholy- Single, Pop, 2:37
-Zenzenzense, RADWIMPS, Your Name, Electronic, 4:46
-Perfect, Ed Sheeran, ÷ (Deluxe), Pop, 4:23
-Shape of You, Ed Sheeran, ÷(Deluxe), Pop, 3:54
-"Lose Yourself", "Eminem", "8 Mile", "Hip Hop", "5:26"
-"Stay", "The Kid LAROI", "ECK LOVE 3" "Hip Hop", "2:21"
-" Viva La Vida ", "Coldplay" "Viva La Vida or Death and All His Friends", "Rock", "4:02"
-"My Heart Will Go On", "Celine Dion", "Titanic", "Pop", "4:40"
+"Blinding Lights", The Weeknd, After Hours, Pop, 3:20
+"Dance Monkey", Tones and I, The Kids Are Coming, Pop, 3:29
+"Watermelon Sugar", Harry Styles, Fine Line, Pop, 2:54
+"Bad Guy", Billie Eilish, When We All Fall Asleep Where Do We Go, Pop, 3:14
+"Levitating", Dua Lipa, Future Nostalgia, Pop, 3:23
+"Savage Love", Jason Derulo, Savage Love, Pop, 2:51
+"Someone You Loved", Lewis Capaldi, Divinely Uninspired to a Hellish Extent, Pop, 3:02
+"Lovely", Billie Eilish, Don't Smile at Me, Alternative, 3:20
+"Circles", Post Malone, Hollywood's Bleeding, Pop, 3:35
+"Shallow", Lady Gaga, A Star Is Born, Pop, 3:36
+"Dynamite", BTS, Dynamite, K-Pop, 3:19
+"Closer", The Chainsmokers, Collage, Electronic, 4:04
+"Say So", Doja Cat, Hot Pink, Pop, 3:57
+"Counting Stars", OneRepublic, Native, Pop, 4:17
+"7 Rings", Ariana Grande, Thank U Next, Pop, 2:58
+"Old Town Road", Lil Nas X, 7, Hip Hop, 2:37
+"God's Plan", Drake, Scorpion, Hip Hop, 3:18
+"Rockstar", Post Malone, Beerbongs & Bentleys, Hip Hop, 3:38
+"Uptown Funk", Mark Ronson, Uptown Special, Funk, 4:30
+"Sorry", Justin Bieber, Purpose, Pop, 3:20
+"Happy", Pharrell Williams, G I R L, Pop, 3:53
+"Rolling in the Deep", Adele, 21, Pop, 3:48
+"Despacito", Luis Fonsi, Vida, Latin, 3:47
+"Believer", Imagine Dragons, Evolve, Rock, 3:24
+"Thunder", Imagine Dragons, Evolve, Rock, 3:07
+"Stressed Out", Twenty One Pilots, Blurryface, Alternative, 3:22
+"Starboy", The Weeknd, Starboy, R&B, 3:50
+"Havana", Camila Cabello, Camila, Pop, 3:37
+"Girls Like You", Maroon 5, Red Pill Blues, Pop, 3:35
+"Something Just Like This", The Chainsmokers, Memories...Do Not Open, Electronic, 4:07
+"Faded", Alan Walker, Different World, Electronic, 3:32
+"Hello", Adele, 25, Pop, 4:55
+"Chandelier", Sia, 1000 Forms of Fear, Pop, 3:36
+"See You Again", Wiz Khalifa, Furious 7, Hip Hop, 3:49
+"Thinking Out Loud", Ed Sheeran, x, Pop, 4:41
+"Photograph", Ed Sheeran, x, Pop, 4:19
+"Let Me Love You", DJ Snake, Encore, Electronic, 3:25
+"Don't Let Me Down", The Chainsmokers, Collage, Electronic, 3:28
+"Treat You Better", Shawn Mendes, Illuminate, Pop, 3:07
+"Lean On", Major Lazer, Peace Is The Mission, Electronic, 2:56
+"Radioactive", Imagine Dragons, Night Visions, Rock, 3:06
+"Wake Me Up", Avicii, True, Electronic, 4:07
+"Cheap Thrills", Sia, This Is Acting, Pop, 3:31
+"Sugar", Maroon 5, V, Pop, 3:55
+"Sunflower", Post Malone, Spider-Man: Into the Spider-Verse, Hip Hop, 2:38
+"Let Her Go", Passenger, All the Little Lights, Folk, 4:12
+"Take Me To Church", Hozier, Hozier, Alternative, 4:01
+"We Don't Talk Anymore", Charlie Puth, Nine Track Mind, Pop, 3:37
+"One Kiss", Calvin Harris, One Kiss, Electronic, 3:34
+"Can't Stop the Feeling!", Justin Timberlake, Trolls, Pop, 3:56
+"Industry Baby", Lil Nas X, Montero, Hip Hop, 3:32
+"All of Me", John Legend, Love in the Future, R&B, 4:29
+"The Hills", The Weeknd, Beauty Behind the Madness, R&B, 4:02
+"Roses", SAINt JHN, Collection One, Hip Hop, 3:15
+"Memories", Maroon 5, Memories, Pop, 3:09
+"Drivers License", Olivia Rodrigo, SOUR, Pop, 4:02
+"Shake It Off", Taylor Swift, 1989, Pop, 3:39
+"Blank Space", Taylor Swift, 1989, Pop, 3:51
+"Stay With Me", Sam Smith, In the Lonely Hour, Pop, 2:52
+"Bad Romance", Lady Gaga, The Fame Monster, Pop, 4:54
+"Pompeii", Bastille, Bad Blood, Alternative, 3:34
+"Cheerleader", OMI, Me 4 U, Reggae, 2:58
+"That's What I Like", Bruno Mars, 24K Magic, R&B, 3:26
+"24K Magic", Bruno Mars, 24K Magic, R&B, 3:45
+"Roar", Katy Perry, Prism, Pop, 3:42
+"Call Me Maybe", Carly Rae Jepsen, Kiss, Pop, 3:13
+"Humble", Kendrick Lamar, DAMN., Hip Hop, 2:57
+"Hotline Bling", Drake, Views, Hip Hop, 4:27
+"Sicko Mode", Travis Scott, Astroworld, Hip Hop, 5:12
+"Happier", Marshmello, Happier, Electronic, 3:34
+"Castle on the Hill", Ed Sheeran, ÷, Pop, 4:21
+"7 Years", Lukas Graham, Lukas Graham, Pop, 3:57
+"Just the Way You Are", Bruno Mars, Doo-Wops & Hooligans, Pop, 3:40
+"Grenade", Bruno Mars, Doo-Wops & Hooligans, Pop, 3:42
+"Riptide", Vance Joy, Dream Your Life Away, Indie, 3:24
+"Stay", Zedd, Stay, Electronic, 3:30
+"This Is What You Came For", Calvin Harris, This Is What You Came For, Electronic, 3:42
+"The Nights", Avicii, The Days / Nights, Electronic, 2:56
+"The Middle", Zedd, The Middle, Electronic, 3:04
+"Lucid Dreams", Juice WRLD, Goodbye & Good Riddance, Hip Hop, 3:59
+"Demons", Imagine Dragons, Night Visions, Rock, 2:57
+"Heathens", Twenty One Pilots, Suicide Squad, Alternative, 3:15
+"Panda", Desiigner, New English, Hip Hop, 4:06
+"The Lazy Song", Bruno Mars, Doo-Wops & Hooligans, Pop, 3:08
+"Party Rock Anthem", LMFAO, Sorry for Party Rocking, Electronic, 4:23
+"Titanium", David Guetta, Nothing but the Beat, Electronic, 4:05
+"As It Was", Harry Styles, Harry's House, Pop, 2:47
+"Toxic", Britney Spears, In the Zone, Pop, 3:18
+"Bad Habits", Ed Sheeran, =, Pop, 3:51
+"Happier Than Ever", Billie Eilish, Happier Than Ever, Alternative, 4:58
+"Save Your Tears", The Weeknd, After Hours, Pop, 3:35
+"Good 4 U", Olivia Rodrigo, SOUR, Pop, 2:58
+"Enemy", Imagine Dragons, Mercury - Act 1, Rock, 2:53
+"Adore You", Harry Styles, Fine Line, Pop, 3:27
+"Mood", 24kGoldn, El Dorado, Hip Hop, 2:21
+"Butter", BTS, Butter, K-Pop, 2:44
+"Without Me", Halsey, Manic, Pop, 3:21
+"No Time To Die", Billie Eilish, No Time To Die, Alternative, 4:02
+"Señorita", Shawn Mendes, Señorita, Pop, 3:10
